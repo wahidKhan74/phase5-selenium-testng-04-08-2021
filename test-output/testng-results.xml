@@ -1,63 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon Test Suite" duration-ms="24452" started-at="2021-04-08T14:59:35 UTC" finished-at="2021-04-08T15:00:00 UTC">
+  <suite name="Default suite" duration-ms="10910" started-at="2021-04-08T15:38:10 UTC" finished-at="2021-04-08T15:38:20 UTC">
     <groups>
+      <group name="Chrome">
+        <method signature="TestNgGroupTest.lauchChromeTest()[pri:0, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="lauchChromeTest" class="com.ecom.werbapp.test.TestNgGroupTest"/>
+        <method signature="TestNgGroupTest.testAmazonHomePageSourceURL()[pri:2, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="testAmazonHomePageSourceURL" class="com.ecom.werbapp.test.TestNgGroupTest"/>
+        <method signature="TestNgGroupTest.testAmazonHomePageTitle()[pri:1, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="testAmazonHomePageTitle" class="com.ecom.werbapp.test.TestNgGroupTest"/>
+      </group> <!-- Chrome -->
+      <group name="FireFox">
+        <method signature="TestNgGroupTest.lauchFireFoxTest()[pri:0, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="lauchFireFoxTest" class="com.ecom.werbapp.test.TestNgGroupTest"/>
+        <method signature="TestNgGroupTest.testToVerifyLogin()[pri:1, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="testToVerifyLogin" class="com.ecom.werbapp.test.TestNgGroupTest"/>
+      </group> <!-- FireFox -->
     </groups>
-    <test name="HomePageTest" duration-ms="24452" started-at="2021-04-08T14:59:35 UTC" finished-at="2021-04-08T15:00:00 UTC">
-      <class name="com.ecom.werbapp.test.AmazonNavigationTest">
-        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonNavigationTest@26aa12dd]" name="lauchBrowser" is-config="true" duration-ms="3729" started-at="2021-04-08T14:59:45 UTC" finished-at="2021-04-08T14:59:49 UTC">
+    <test name="Default test" duration-ms="10910" started-at="2021-04-08T15:38:10 UTC" finished-at="2021-04-08T15:38:20 UTC">
+      <class name="com.ecom.werbapp.test.TestNgGroupTest">
+        <test-method status="PASS" signature="lauchChromeTest()[pri:0, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="lauchChromeTest" duration-ms="3537" started-at="2021-04-08T15:38:10 UTC" description="Testng Test Group" finished-at="2021-04-08T15:38:13 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="testMobileNavigationLink()[pri:0, instance:com.ecom.werbapp.test.AmazonNavigationTest@26aa12dd]" name="testMobileNavigationLink" duration-ms="2440" started-at="2021-04-08T14:59:49 UTC" finished-at="2021-04-08T14:59:51 UTC">
+        </test-method> <!-- lauchChromeTest -->
+        <test-method status="PASS" signature="lauchFireFoxTest()[pri:0, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="lauchFireFoxTest" duration-ms="5272" started-at="2021-04-08T15:38:13 UTC" description="Testng Test Group" finished-at="2021-04-08T15:38:18 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMobileNavigationLink -->
-        <test-method status="PASS" signature="cloaseBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonNavigationTest@26aa12dd]" name="cloaseBrowser" is-config="true" duration-ms="895" started-at="2021-04-08T14:59:51 UTC" finished-at="2021-04-08T14:59:52 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cloaseBrowser -->
-        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonNavigationTest@26aa12dd]" name="lauchBrowser" is-config="true" duration-ms="3516" started-at="2021-04-08T14:59:52 UTC" finished-at="2021-04-08T14:59:56 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="testTodaysDealNavigationLink()[pri:0, instance:com.ecom.werbapp.test.AmazonNavigationTest@26aa12dd]" name="testTodaysDealNavigationLink" duration-ms="2385" started-at="2021-04-08T14:59:56 UTC" finished-at="2021-04-08T14:59:58 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTodaysDealNavigationLink -->
-        <test-method status="PASS" signature="cloaseBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonNavigationTest@26aa12dd]" name="cloaseBrowser" is-config="true" duration-ms="1452" started-at="2021-04-08T14:59:58 UTC" finished-at="2021-04-08T15:00:00 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cloaseBrowser -->
-      </class> <!-- com.ecom.werbapp.test.AmazonNavigationTest -->
-      <class name="com.ecom.werbapp.test.AmazonHomePageTest">
-        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonHomePageTest@131276c2]" name="lauchBrowser" is-config="true" duration-ms="3718" started-at="2021-04-08T14:59:35 UTC" finished-at="2021-04-08T14:59:39 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="testAmazonHomePageSourceURL()[pri:0, instance:com.ecom.werbapp.test.AmazonHomePageTest@131276c2]" name="testAmazonHomePageSourceURL" duration-ms="115" started-at="2021-04-08T14:59:39 UTC" finished-at="2021-04-08T14:59:39 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAmazonHomePageSourceURL -->
-        <test-method status="PASS" signature="cloaseBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonHomePageTest@131276c2]" name="cloaseBrowser" is-config="true" duration-ms="1245" started-at="2021-04-08T14:59:39 UTC" finished-at="2021-04-08T14:59:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cloaseBrowser -->
-        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonHomePageTest@131276c2]" name="lauchBrowser" is-config="true" duration-ms="3970" started-at="2021-04-08T14:59:40 UTC" finished-at="2021-04-08T14:59:44 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchBrowser -->
-        <test-method status="PASS" signature="testAmazonHomePageTitle()[pri:0, instance:com.ecom.werbapp.test.AmazonHomePageTest@131276c2]" name="testAmazonHomePageTitle" duration-ms="23" started-at="2021-04-08T14:59:44 UTC" finished-at="2021-04-08T14:59:44 UTC">
+        </test-method> <!-- lauchFireFoxTest -->
+        <test-method status="PASS" signature="testAmazonHomePageTitle()[pri:1, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="testAmazonHomePageTitle" duration-ms="19" started-at="2021-04-08T15:38:18 UTC" description="Testng Test Group" depends-on-methods="com.ecom.werbapp.test.TestNgGroupTest.lauchChromeTest" finished-at="2021-04-08T15:38:18 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmazonHomePageTitle -->
-        <test-method status="PASS" signature="cloaseBrowser()[pri:0, instance:com.ecom.werbapp.test.AmazonHomePageTest@131276c2]" name="cloaseBrowser" is-config="true" duration-ms="909" started-at="2021-04-08T14:59:44 UTC" finished-at="2021-04-08T14:59:45 UTC">
+        <test-method status="PASS" signature="testToVerifyLogin()[pri:1, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="testToVerifyLogin" duration-ms="1875" started-at="2021-04-08T15:38:18 UTC" description="Testng Test Group" depends-on-methods="com.ecom.werbapp.test.TestNgGroupTest.lauchFireFoxTest" finished-at="2021-04-08T15:38:20 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cloaseBrowser -->
-      </class> <!-- com.ecom.werbapp.test.AmazonHomePageTest -->
-    </test> <!-- HomePageTest -->
-  </suite> <!-- Amazon Test Suite -->
+        </test-method> <!-- testToVerifyLogin -->
+        <test-method status="PASS" signature="testAmazonHomePageSourceURL()[pri:2, instance:com.ecom.werbapp.test.TestNgGroupTest@9660f4e]" name="testAmazonHomePageSourceURL" duration-ms="127" started-at="2021-04-08T15:38:20 UTC" description="Testng Test Group" depends-on-methods="com.ecom.werbapp.test.TestNgGroupTest.lauchChromeTest" finished-at="2021-04-08T15:38:20 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageSourceURL -->
+      </class> <!-- com.ecom.werbapp.test.TestNgGroupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
