@@ -5,4 +5,17 @@
 			<class name="com.ecom.werbapp.test.AmazonNavigationTest"></class>
 		</classes>
 	</test>
+	
+	<test name="AssertTest">
+		<classes>
+			<class name="com.ecom.werbapp.test.AssertionTest"></class>
+			<class name="com.ecom.werbapp.test.SoftAssertWithFacebookLogin"></class>
+		</classes>
+	</test>
+	
+	<test name="GroupTest">
+		<classes>
+			<class name="com.ecom.werbapp.test.TestNgGroupTest"></class>
+		</classes>
+	</test>
 </suite>

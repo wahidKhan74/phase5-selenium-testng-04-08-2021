@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecom.werbapp.test.TestNgGroupTest">
+      <class name="com.ecom.werbapp.test.AssertionTest">
         <methods>
-          <include name="testAmazonHomePageTitle"/>
-          <include name="testAmazonHomePageSourceURL"/>
-          <include name="lauchChromeTest"/>
+          <include name="hardAssert"/>
         </methods>
-      </class> <!-- com.ecom.werbapp.test.TestNgGroupTest -->
+      </class> <!-- com.ecom.werbapp.test.AssertionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
